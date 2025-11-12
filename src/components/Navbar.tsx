@@ -152,6 +152,20 @@ const Navbar = () => {
               <Globe className="w-4 h-4" />
               <span>{language === 'en' ? 'عربي' : 'English'}</span>
             </Button>
+
+            {/* Login Button */}
+            <Link to="/login">
+              <Button
+                size="sm"
+                className={`${
+                  isScrolled
+                    ? 'bg-[#004D40] text-white hover:bg-[#00695C]'
+                    : 'bg-white/20 backdrop-blur-sm text-white hover:bg-white/30 border border-white/30'
+                } transition-all duration-300`}
+              >
+                {t('nav.login')}
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -224,6 +238,19 @@ const Navbar = () => {
                 <Globe className="w-4 h-4" />
                 <span>{language === 'en' ? 'عربي' : 'English'}</span>
               </Button>
+            </div>
+
+            {/* Login Button Mobile */}
+            <div className="px-4">
+              <Link to="/login">
+                <Button
+                  size="sm"
+                  className="w-full bg-[#004D40] text-white hover:bg-[#00695C]"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {t('nav.login')}
+                </Button>
+              </Link>
             </div>
           </div>
         )}

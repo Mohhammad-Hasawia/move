@@ -13,7 +13,8 @@ import OfficeMoving from "./pages/services/OfficeMoving";
 import Quote from "./pages/Quote";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Login from "./pages/login";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 const queryClient = new QueryClient();
 
@@ -33,7 +34,8 @@ const App = () => (
             <Route path="/quote" element={<Quote />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-<Route path="/login" element={<Login />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -441,6 +441,51 @@ const translations = {
     'interstateMoving.cta.title': 'Start Your Interstate Move Today',
     'interstateMoving.cta.subtitle': 'Get a personalized quote and experience the MoveLine difference—trusted by thousands of families nationwide.',
     'interstateMoving.cta.button': 'Request Free Quote',
+
+    // Authentication - Navigation
+    'nav.login': 'Login',
+
+    // Authentication - Login Page
+    'auth.login.heroTitle': 'Welcome Back to MoveLine',
+    'auth.login.heroSubtitle': 'Your trusted partner in seamless moving solutions.',
+    'auth.login.title': 'Welcome Back',
+    'auth.login.subtitle': 'Sign in to access your account and manage your bookings.',
+    'auth.login.emailLabel': 'Email Address',
+    'auth.login.emailPlaceholder': 'your.email@example.com',
+    'auth.login.passwordLabel': 'Password',
+    'auth.login.passwordPlaceholder': 'Enter your password',
+    'auth.login.forgotPassword': 'Forgot password?',
+    'auth.login.submitButton': 'Sign In',
+    'auth.login.noAccount': "Don't have an account?",
+    'auth.login.registerLink': 'Register now',
+    'auth.login.backToHome': 'Back to Home',
+
+    // Authentication - Register Page
+    'auth.register.heroTitle': 'Join MoveLine Today',
+    'auth.register.heroSubtitle': 'Create an account and start your smooth moving journey.',
+    'auth.register.title': 'Create Your Account',
+    'auth.register.subtitle': 'Join thousands of satisfied customers who trust MoveLine.',
+    'auth.register.fullNameLabel': 'Full Name',
+    'auth.register.fullNamePlaceholder': 'Enter your full name',
+    'auth.register.emailLabel': 'Email Address',
+    'auth.register.emailPlaceholder': 'your.email@example.com',
+    'auth.register.passwordLabel': 'Password',
+    'auth.register.passwordPlaceholder': 'Create a strong password',
+    'auth.register.confirmPasswordLabel': 'Confirm Password',
+    'auth.register.confirmPasswordPlaceholder': 'Re-enter your password',
+    'auth.register.submitButton': 'Create Account',
+    'auth.register.haveAccount': 'Already have an account?',
+    'auth.register.loginLink': 'Log in here',
+    'auth.register.backToHome': 'Back to Home',
+
+    // Authentication - Errors
+    'auth.errors.emailRequired': 'Email is required',
+    'auth.errors.emailInvalid': 'Please enter a valid email address',
+    'auth.errors.passwordRequired': 'Password is required',
+    'auth.errors.passwordTooShort': 'Password must be at least 6 characters',
+    'auth.errors.confirmPasswordRequired': 'Please confirm your password',
+    'auth.errors.passwordMismatch': 'Passwords do not match',
+    'auth.errors.fullNameRequired': 'Full name is required',
   },
   ar: {
     // Navigation
@@ -874,6 +919,51 @@ const translations = {
     'interstateMoving.cta.title': 'ابدأ انتقالك بين المحافظات اليوم',
     'interstateMoving.cta.subtitle': 'احصل على عرض سعر شخصي وجرب فرق MoveLine—موثوق به من قبل آلاف العائلات على مستوى البلاد.',
     'interstateMoving.cta.button': 'اطلب عرض مجاني',
+
+    // Authentication - Navigation
+    'nav.login': 'تسجيل الدخول',
+
+    // Authentication - Login Page
+    'auth.login.heroTitle': 'مرحبًا بعودتك إلى MoveLine',
+    'auth.login.heroSubtitle': 'شريكك الموثوق في حلول النقل السلسة.',
+    'auth.login.title': 'مرحبًا بعودتك',
+    'auth.login.subtitle': 'سجّل الدخول للوصول إلى حسابك ومتابعة حجوزاتك بسهولة.',
+    'auth.login.emailLabel': 'البريد الإلكتروني',
+    'auth.login.emailPlaceholder': 'your.email@example.com',
+    'auth.login.passwordLabel': 'كلمة المرور',
+    'auth.login.passwordPlaceholder': 'أدخل كلمة المرور',
+    'auth.login.forgotPassword': 'نسيت كلمة المرور؟',
+    'auth.login.submitButton': 'تسجيل الدخول',
+    'auth.login.noAccount': 'ليس لديك حساب؟',
+    'auth.login.registerLink': 'أنشئ حسابًا الآن',
+    'auth.login.backToHome': 'العودة للرئيسية',
+
+    // Authentication - Register Page
+    'auth.register.heroTitle': 'انضم إلى MoveLine اليوم',
+    'auth.register.heroSubtitle': 'أنشئ حسابًا وابدأ رحلة نقل سلسة.',
+    'auth.register.title': 'إنشاء حساب جديد',
+    'auth.register.subtitle': 'انضم إلى آلاف العملاء الراضين الذين يثقون بـ MoveLine.',
+    'auth.register.fullNameLabel': 'الاسم الكامل',
+    'auth.register.fullNamePlaceholder': 'أدخل اسمك الكامل',
+    'auth.register.emailLabel': 'البريد الإلكتروني',
+    'auth.register.emailPlaceholder': 'your.email@example.com',
+    'auth.register.passwordLabel': 'كلمة المرور',
+    'auth.register.passwordPlaceholder': 'أنشئ كلمة مرور قوية',
+    'auth.register.confirmPasswordLabel': 'تأكيد كلمة المرور',
+    'auth.register.confirmPasswordPlaceholder': 'أعد إدخال كلمة المرور',
+    'auth.register.submitButton': 'إنشاء حساب',
+    'auth.register.haveAccount': 'لديك حساب بالفعل؟',
+    'auth.register.loginLink': 'سجّل دخولك هنا',
+    'auth.register.backToHome': 'العودة للرئيسية',
+
+    // Authentication - Errors
+    'auth.errors.emailRequired': 'البريد الإلكتروني مطلوب',
+    'auth.errors.emailInvalid': 'يرجى إدخال بريد إلكتروني صالح',
+    'auth.errors.passwordRequired': 'كلمة المرور مطلوبة',
+    'auth.errors.passwordTooShort': 'كلمة المرور يجب أن تكون 6 أحرف على الأقل',
+    'auth.errors.confirmPasswordRequired': 'يرجى تأكيد كلمة المرور',
+    'auth.errors.passwordMismatch': 'كلمات المرور غير متطابقة',
+    'auth.errors.fullNameRequired': 'الاسم الكامل مطلوب',
   },
 };
 
